@@ -9,7 +9,8 @@ db_password=$3
 sudo systemctl status docker || systemctl start docker
 
 #checks container status and stores in variable
-container_status= $docker container inspect jrvs-psql
+docker container inspect jrvs-psql
+container_status=$?
 
 # Switch statement to handle create|stop|start
 case $cmd in
@@ -28,7 +29,7 @@ case $cmd in
     fi
 
     # Created the container
-    docker volume create pd_data
+    docker volume create pg_data
     docker run --name jrvs-psql -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lin/postgresql/data -p 5432:5432 postgres:9.6-alpine
     exit 0
     ;;
