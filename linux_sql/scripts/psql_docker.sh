@@ -33,7 +33,7 @@ case $cmd in
     docker run --name jrvs-psql -e POSTGRES_PASSWORD=$db_password -d -v pgdata:/var/lin/postgresql/data -p 5432:5432 postgres:9.6-alpine
     exit 0
     ;;
-
+  
   start|stop)
     # Checks if container has already been created
     if [ $container_status -eq 1 ]; then
