@@ -7,7 +7,6 @@ db_name=$3
 psql_user=$4
 psql_password=$5
 
-
 # Check number of arguments
 if [ $# -ne 5 ]; then
   echo 'Please enter valid number of arguments'
@@ -18,6 +17,7 @@ if [ $# -ne 5 ]; then
 vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 
+
 #Retrieve usage specifications
 memory_free=$(vmstat -SM |  awk '{print $4}' | tail -n1 )
 cpu_idle=$(vmstat | awk -F ' ' '{print $15}' | tail -n1)
@@ -26,11 +26,14 @@ disk_io=$(vmstat -d | awk -F ' ' '{print $10}' | tail -n1)
 disk_available=$(df -BM / | awk -F ' ' '{print $4}' | tail -n1 | sed 's/[^0-9]*//g')
 timestamp=$(date '+%F %T')
 
+
 #Subquery to find matching id in hot_info table
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
 
+
 # Insert Statement into datanase
 insert_stmt="INSERT INTO host_usage ( timestamp, host_id, memory_free, cpu_idle, cpu_kernal, disk_io, disk_available) VALUES('$timestamp', $host_id ,'$memory_free', '$cpu_idle', '$cpu_kernal', '$disk_io', '$disk_available')"
+
 
 #set up environment variables
 export PGPASSWORD=$psql_password

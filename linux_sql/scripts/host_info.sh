@@ -7,6 +7,7 @@ db_name=$3
 psql_user=$4
 psql_password=$5
 
+
 # Check number of arguments
 if [ $# -ne 5 ]; then
   echo 'Please enter valid number of arguments'
@@ -17,6 +18,7 @@ if [ $# -ne 5 ]; then
 lscpu_out=`lscpu`
 vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
+
 
 #Retrieve hardware specifications
 cpu_number=$(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
