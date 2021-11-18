@@ -16,21 +16,21 @@ if [ $# -ne 5 ]; then
 
 #Host store into variables
 vmstat_mb=$(vmstat --unit M)
-
+hostname=$(hostname -f)
 
 #Retrieve usage specifications
-memory_free=$( egrep MemFree /proc/meminfo  |  awk '{print $2 $3}' )
+memory_free=$(vmstat -SM |  awk '{print $4}' | tail -n1 )
 cpu_idle=$(vmstat | awk -F ' ' '{print $15}' | tail -n1)
 cpu_kernal=$(vmstat | awk -F ' ' '{print $14}' | tail -n1)
 disk_io=$(vmstat -d | awk -F ' ' '{print $10}' | tail -n1)
-disk_available=$(df -BM / | awk -F ' ' '{print $4}' | tail -n1)
+disk_available=$(df -BM / | awk -F ' ' '{print $4}' | tail -n1 | sed 's/[^0-9]*//g')
 timestamp=$(date '+%F %T')
 
 #Subquery to find matching id in hot_info table
-host_id="(SELECT id FROM host_info WHERE hostname='$hostname')"
+host_id="(SELECT id FROM host_info WHERE hostname='$hostname')";
 
 # Insert Statement into datanase
-insert_stmt="INSERT INTO host_info ( timestamp, host_id, memory_free, cpu_idle, cpu_kernal, disk_io, disk_available) VALUES('$timestamp', '$host_id' ,'$memory_free', '$cpu_idle', '$cpu_kernal', '$disk_io', '$disk_available')"
+insert_stmt="INSERT INTO host_usage ( timestamp, host_id, memory_free, cpu_idle, cpu_kernal, disk_io, disk_available) VALUES('$timestamp', $host_id ,'$memory_free', '$cpu_idle', '$cpu_kernal', '$disk_io', '$disk_available')"
 
 #set up environment variables
 export PGPASSWORD=$psql_password

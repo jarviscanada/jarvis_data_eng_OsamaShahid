@@ -14,7 +14,7 @@ if [ $# -ne 5 ]; then
   fi
 
 #Host store into variables
-lscpu_out=$lscpu
+lscpu_out=`lscpu`
 vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 
@@ -23,8 +23,8 @@ cpu_number=$(echo "$lscpu_out"  | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
 cpu_architecture=$(echo "$lscpu_out"  | egrep "^Architecture:"  | awk '{print $2}'  | xargs)
 cpu_model=$(echo "$lscpu_out" | egrep "Model name:" | awk '{print $3 $4 $5 $6 $7}' | xargs)
 cpu_mhz=$(echo "$lscpu_out" | egrep "CPU MHz:" | awk '{print $3}' | xargs)
-l2_cache=$(echo "$lscpu_out" | egrep "L2 cache:" | awk '{print $3}' | xargs)
-total_mem=$( egrep MemTotal /proc/meminfo  |  awk '{print $2 $3}' | xargs)
+l2_cache=$(echo "$lscpu_out" | egrep "L2 cache:" | awk '{print $3}' | sed 's/[^0-9]*//g' | xargs)
+total_mem=$( egrep MemTotal /proc/meminfo  |  awk '{print $2 $3}' | sed 's/[^0-9]*//g' | xargs)
 timestamp=$(date '+%F %T')
 
 
