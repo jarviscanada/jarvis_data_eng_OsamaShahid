@@ -105,9 +105,27 @@ and postgresql to store into a database.
 
 Insert picture of design
 
+
 ### Scripts
 
-describe the scripts
+`host_info.sh` This script is ran on all nodes in the cluster. This script will 
+start dockers and create psql container named jrvs-psql (if not already created). Likewise, 
+it will start of stop the jrvs-psql container, using different arguments. 
+
+`host_info.sh` This script will be executed once for each node and will retrieve hardware
+related information where it will then be stored in the psql database. The script makes
+a connection to the database and takes in 5 parameters(host, port, name, user, 
+password). 
+
+`host_usage.sh` The script will be executed every minute using crontab and will 
+retrieve cpu usage information to store in the database. The script makes
+a connection to the database and takes in 5 parameters(host, port, name, user,
+password).
+
+`crontab` This tool is used to create scheduled jobs to be executed at desired times
+and use this 
+
+`queries.sql`
 
 ### Database Modeling
 
