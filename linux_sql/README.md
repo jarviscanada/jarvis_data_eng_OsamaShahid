@@ -103,7 +103,7 @@ and postgresql to store into a database.
 
 ### Architecture
 
-![my image](./assets/my_image.jpg)
+![my image](./assets/linux-sql-arch.png)
 
 ### Scripts
 
