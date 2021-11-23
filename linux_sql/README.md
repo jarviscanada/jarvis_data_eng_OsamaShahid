@@ -104,7 +104,7 @@ and postgresql to store into a database.
 ### Architecture
 
 Insert picture of design
-
+()[]
 
 ### Scripts
 
@@ -129,15 +129,30 @@ and use this
 
 ### Database Modeling
 
-Describe the schema
+`host_info` Table will be used to store the linux node computer information. This
+is specific to hardware level so it will remain static and will not change. The
+table an ID (primary key), name, cpu_number, spu_architecture, model, total_memory, 
+and timestamp. 
 
+`host_usage` Table will be used to store each linux nodes cpu/memory usage over time.
+This table will form a foreign key host_id referencing ID from previous table. The 
+columns will also have a timestamp, memory_free, disk_available, disk_io, cpu_kernel, 
+cpu_idle.
+ 
 ## Test
 
-testing methods
+Most testing was performed through manual testing. However, we used bash script tests
+to check observe all line outputs were correctly executed. 
 
 ## Development 
 
-how did we develop app.
+We deployed the app using dockers containers, by using a postgres:alpine image
+on dockerhub. Created the bash scripts and sql statements (ddl, dml, dql), utilized
+crontab to run the scripts every minute and storing data into postgres database. 
+We utilized git and gitflow for version control throughout the process. 
 
 ## Improvement
 
+1. Implement Normalization into our database instances
+2. Create a script to signal user when server downtime is detected.
+3. Make connections to other linux node instances. 
