@@ -103,8 +103,7 @@ and postgresql to store into a database.
 
 ### Architecture
 
-Insert picture of design
-()[]
+![my image](./assets/my_image.jpg)
 
 ### Scripts
 
