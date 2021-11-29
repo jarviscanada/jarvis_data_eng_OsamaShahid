@@ -1,37 +1,37 @@
-# John Smith . Jarvis Consulting
+# Osama Shahid . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+I have completed my Bachelor's in Chemistry from McMaster University, but always had a keen interest in technology,as I worked as a junior Software Developer afterwards. I am currently finishing up my Master degree in Computer Science andhave alongside have joined Jarvis. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment.With that, I have acquired and solidified my knowledge by working on multiple projects specifically technologies like Linux/Bash, RDMS/PostgresSQL, Docker, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Python, Linux/Bash, RDBMS/SQL, NoSQL/MongoDB, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** JavaScript, React, Nodejs, HTML/CSS, GitFlow
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Docker, C/C++, Neo4j, Maven, AWS
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/linux_sql)]: Implented a clustering monitoring program which automates the collects hardware and cpu usage information from the linux servers using Bash scripts and Crontab. The data was stored in a postgresSQL database that was initialized using Dockers. It was later than queried to perform analytics on overall usage and identify downtimes during high server usage. We utilzed Git as a version control tool and GitFlow branching strategy.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/python_data_anlytics)]: Not Started
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/hadoop)]: Not Started
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
@@ -42,23 +42,20 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2021-present)**: Worked in an Agile/Scrum enviroment to implement multiple projects using Linux/Bash, Java, Docker, SQL, etc. Conducted daily scrum meetings and bi-weekly retro meetings.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Select Vantage Inc. (2019-2020)**:  Created python tools/programs to help retrieve live trading information. Utilized python modules for data processing and data analysis and implemented scripts to reduce time sorting data.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**Univeristy of Pennsylvannia (2020-Present)**, Masters of Computer Information Technology, School of Engineering and Applied Sciences
+- GPA: 3.7/4.0
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**McMaster University (2015-2019)**, Bachelors of Science, Chemistry and Chemical Biology
+- GPA: 3.5/4.0
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
+- Soccer and Basketball
 - Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Photography and Radio Co-Host
