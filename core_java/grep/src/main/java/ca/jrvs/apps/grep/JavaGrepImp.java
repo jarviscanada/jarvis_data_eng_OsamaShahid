@@ -18,8 +18,6 @@ public class JavaGrepImp implements JavaGrep{
 
   private static Logger logger = LoggerFactory.getLogger(JavaGrepImp.class);
 
-  //final Logger logger = LoggerFactory.getLogger(JavaGrepImp.class);
-
   private String regex;
   private String rootPath;
   private String outFile;
@@ -57,11 +55,8 @@ public class JavaGrepImp implements JavaGrep{
     List<File> listFiles = new ArrayList<>();
 
     for (File file : listOfFiles){
-      String regex = "txt$";
-      String filename = file.getName();
-
-      listFiles.add(file);
-      if (filename.matches(regex)){
+      if (!file.isDirectory()){
+        listFiles.add(file);
       }
     }
 
@@ -110,7 +105,6 @@ public class JavaGrepImp implements JavaGrep{
     }
 
     String regex = getRegex();
-
     Pattern pattern = Pattern.compile(regex);
     Matcher matcher = pattern.matcher(line);
 
@@ -139,7 +133,6 @@ public class JavaGrepImp implements JavaGrep{
     }
 
     bw.close();
-
   }
 
   @Override
@@ -176,7 +169,6 @@ public class JavaGrepImp implements JavaGrep{
     if (args.length != 3){
       throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
     }
-
 
     JavaGrepImp grepImp = new JavaGrepImp();
     grepImp.setRegex(args[0]);
