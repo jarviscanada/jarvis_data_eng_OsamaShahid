@@ -18,30 +18,41 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
     javaGrepLambda.setRootPath(args[1]);
     javaGrepLambda.setOutFile(args[2]);
 
-
     try {
-
       javaGrepLambda.process();
     } catch (Exception e) {
       e.printStackTrace();
     }
 
 
-    @Override
-    public List<String> readLines(File inputFile) {
+  }
 
-    }
+  @Override
+  public void process() throws IOException {}
 
-    @Override
-    public List<File> listFiles(String rootDir){
 
-    }
+  @Override
+  public List<String> readLines (File inputFile) {
+    return null;
+  }
 
-    @Override
-    public void writeToFile(List<String> lines) throws IOException {
 
-    }
+  @Override
+  public List<File> listFiles(String rootDir){
+    return null;
+  }
 
+
+  @Override
+  public void writeToFile(List<String> lines) throws IOException {
 
   }
+
+
+  @Override
+  public boolean containsPattern(String line) {
+    return false;
+  }
+
+
 }

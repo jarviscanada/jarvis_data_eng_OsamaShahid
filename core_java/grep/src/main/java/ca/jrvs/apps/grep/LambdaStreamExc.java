@@ -123,7 +123,7 @@ public interface LambdaStreamExc {
 
 
   /**
-   * Sqaure each number from the inputs
+   * Square each number from the inputs
    * Please write two solutions and compare differences
    *      - use flatMap
    *
