@@ -22,7 +22,6 @@ public class JavaGrepImp implements JavaGrep{
   private String rootPath;
   private String outFile;
 
-
   @Override
   public void process() throws IOException {
 
