@@ -1,4 +1,4 @@
-package ca.jrvs.practice.apps;
+package ca.jrvs.practice.dataStructure;
 
 public class RegexExcImp implements RegexExc {
 
