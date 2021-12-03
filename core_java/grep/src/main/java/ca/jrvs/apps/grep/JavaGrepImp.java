@@ -103,7 +103,6 @@ public class JavaGrepImp implements JavaGrep{
     if (line == null){
       return false;
     }
-
     String regex = getRegex();
     Pattern pattern = Pattern.compile(regex);
     Matcher matcher = pattern.matcher(line);
