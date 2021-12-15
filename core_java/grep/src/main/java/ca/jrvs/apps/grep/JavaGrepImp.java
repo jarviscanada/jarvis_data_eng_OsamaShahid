@@ -13,10 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.apache.log4j.BasicConfigurator;
 
 public class JavaGrepImp implements JavaGrep{
 
-  private static Logger logger = LoggerFactory.getLogger(JavaGrepImp.class);
+  static final Logger logger = LoggerFactory.getLogger(JavaGrepImp.class);
 
   private String regex;
   private String rootPath;
@@ -168,6 +169,8 @@ public class JavaGrepImp implements JavaGrep{
     if (args.length != 3){
       throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
     }
+
+    BasicConfigurator.configure();
 
     JavaGrepImp grepImp = new JavaGrepImp();
     grepImp.setRegex(args[0]);
