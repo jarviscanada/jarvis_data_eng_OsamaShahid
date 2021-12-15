@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.security.auth.login.Configuration;
+import org.apache.log4j.BasicConfigurator;
 
 public class JavaGrepImp implements JavaGrep{
 
@@ -171,7 +172,7 @@ public class JavaGrepImp implements JavaGrep{
       throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
     }
 
-
+    BasicConfigurator.configure();
 
     JavaGrepImp grepImp = new JavaGrepImp();
     grepImp.setRegex(args[0]);
