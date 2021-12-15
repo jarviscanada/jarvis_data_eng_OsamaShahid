@@ -170,7 +170,6 @@ public class JavaGrepImp implements JavaGrep{
     }
 
 
-
     JavaGrepImp grepImp = new JavaGrepImp();
     grepImp.setRegex(args[0]);
     grepImp.setRootPath(args[1]);
