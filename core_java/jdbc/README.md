@@ -16,20 +16,21 @@ The application interacts with postgresql database hosted locally using docker c
 
 
 ## Design Patterns
-
+There are two patterns that can be implemented to access databse from java application using JDBC. The data access object (DAO) or repository pattern. For this instance we used the data access object Model.
 
 ### Data Access Object Model (DAO)
 
-The Data Access Object design pattern allows you to isolate the application/business layer from the persistence layer by way of an abstract API. This design pattern allows the API to be hidden from the application all the underlying functionality of performing CRUD operations. In this JDBC implementation the 'CustomerDAO' class was implemented to enable CRUD operations on a PostgreSQL database, 'hplussport'. Thereafter, a Data Transfer Object (DTO), namely 'Customer' class was created to represent a relation (i.e. Customer table)
-within the database. Finally, CRUD operations were performed in the 'JDBCExecutor' class to process the data.
+The DAO provides CRUD capabilities by executing transaction on the database. The DAO creates Data Transfer Object(DTO) which allows for transfering data between process. 
+This design pattern allows the application to be isolated from the database and all of its functionality of performing CRUD operations. The DAO uses DTO to store in its query code into objects and encapsulates its parameters. In our case, a DTO named 'Customer' class was created to form a relationship between the database and the 'JDBCExecutor' class was used to rexecute the queries. 
 
-### Respository Desgin Pattern 
 
-The repository design pattern is similar to the DAO design pattern but it differs from it in that it is closer to the business logic of an app. Furthermore, the repository pattern allows for sharding of a database.
+### Respository Design Pattern 
+
+The repository design pattern is similar to the DAO, however since the repository is more abstracted from the storage it is more closer to the business logic of the app. It allows the business logic to access the data without knowing about the underlying data access architecture. 
 
 # Test
 
-The application had been tested manually against the database. An instance of a test database was created where the crud operations were performed on it to verify if the results matched the expected results.
+The application had been tested manually against the database. The database queries were checked based on counts and running simple queries to check for correct results. 
 
 
 
