@@ -9,7 +9,7 @@ The application interacts with postgresql database hosted locally using docker c
  - Docker
 
 
-# Implementaiton
+# Implementation
 ## ER Diagram
 ![](er.png)
 
