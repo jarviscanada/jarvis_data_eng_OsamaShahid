@@ -11,7 +11,8 @@ The application interacts with postgresql database hosted locally using docker c
 
 # Implementaiton
 ## ER Diagram
-ER diagram
+![](er.png)
+
 
 
 ## Design Patterns
