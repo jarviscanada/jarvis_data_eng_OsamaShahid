@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 #!  /bin/sh
 
 # Setup arguments (cmd = [create|stop|start])
@@ -54,5 +52,3 @@ case $cmd in
   exit 1
   ;;
 esac
->>>>>>> feature/psql_docker
-
