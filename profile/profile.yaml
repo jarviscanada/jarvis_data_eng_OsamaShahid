@@ -99,7 +99,7 @@ professional_experience:
 education: 
   - school_name: "Univeristy of Pennsylvannia"
     duration: "2020-Present"
-    degree: "Masters of Computer Information Technology"
+    degree: "Masters of Computer Science"
     department: "School of Engineering and Applied Sciences"
     # optional
     awards_achievements: 
