@@ -50,7 +50,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo_Osama
 
 
 ## Education
-**Univeristy of Pennsylvannia (2020-Present)**, Masters of Computer Information Technology, School of Engineering and Applied Sciences
+**Univeristy of Pennsylvannia (2020-Present)**, Masters of Computer Science, School of Engineering and Applied Sciences
 - GPA: 3.7/4.0
 
 **McMaster University (2015-2019)**, Bachelors of Science, Chemistry and Chemical Biology
