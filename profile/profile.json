@@ -1,0 +1,134 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "GPA: 3.7/4.0"
+      ],
+      "degree": "Masters of Computer Information Technology",
+      "department": "School of Engineering and Applied Sciences",
+      "duration": "2020-Present",
+      "school_name": "Univeristy of Pennsylvannia"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.5/4.0"
+      ],
+      "degree": "Bachelors of Science",
+      "department": "Chemistry and Chemical Biology",
+      "duration": "2015-2019",
+      "school_name": "McMaster University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid",
+  "highlighted_projects": [
+    {
+      "description": "Created dashboard to find players team and matches played statistics that can potentially be used for sports betting. The frontend applciation was built using React and backend using Nodejs. The data was stored in MySQL database hosted on AWS-RDS.",
+      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
+      "name": "Fifa Dashboard"
+    },
+    {
+      "description": "Created frontend using React/Redux while backend uses Django and Firebase. The application allows user to log in and post threads and interact with other users using the app.",
+      "git_url": null,
+      "name": "Social Media Application"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implented a clustering monitoring program which automates the collects hardware and cpu usage information from the linux servers using Bash scripts and Crontab. The data was stored in a postgresSQL database that was initialized using Dockers. It was later than queried to perform analytics on overall usage and identify downtimes during high server usage. We utilzed Git as a version control tool and GitFlow branching strategy.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: In-progress",
+        "JDBC App: Implemented JDBC to connect to a postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern.",
+        "Grep App: Created application to mimic linux grep command and utilized stream APIs to optimize efficiency. This was packaged using Maven and was Dockerized by building an image and uploading to docker hub."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Osama Shahid",
+  "others": [
+    {
+      "bullets": [
+        "Soccer and Basketball",
+        "Competitive gaming",
+        "Photography and Radio Co-Host"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Worked in an Agile/Scrum enviroment to implement multiple projects using Linux/Bash, Java, Docker, SQL, etc. Conducted daily scrum meetings and bi-weekly retro meetings.",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Select Vantage Inc.",
+      "description": " Created python tools/programs to help retrieve live trading information. Utilized python modules for data processing and data analysis and implemented scripts to reduce time sorting data.",
+      "duration": "2019-2020",
+      "title": "Software Developer"
+    },
+    {
+      "company": "McMaster University",
+      "description": "Utilized python libraries for data analysis. Created and led team project regarding exploration of cholesterol embedded lipid systems in membranes studying lysis analytics. Publication: https://www.nature.com/articles/s41598-020-61561-7 ",
+      "duration": "2017 - 2019",
+      "title": "Research Assistant"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "JavaScript",
+      "React",
+      "Nodejs",
+      "HTML/CSS",
+      "GitFlow",
+      "Docker"
+    ],
+    "familiar": [
+      "GCP",
+      "C/C++",
+      "Neo4j",
+      "Maven",
+      "AWS"
+    ],
+    "proficient": [
+      "Java",
+      "Python",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "NoSQL/MongoDB",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I have graduated with a Bachelor's in Chemistry from McMaster University, but have always had a keen interest in technology,as I worked as a junior Software Developer shortly afterwards. I am currently finishing up my Master degree in Computer Science and have joined Jarvis alongside. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment to create backend applications. With that, I have acquired and solidified my knowledge by working on multiple projects specifically with technologies such as Linux/Bash, RDMS/PostgresSQL, Dockers, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer."
+}

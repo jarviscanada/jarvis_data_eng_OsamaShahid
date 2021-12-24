@@ -1,36 +1,38 @@
 # Preferred name (Characters only)
 name: "Osama Shahid"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
-
+summary: I have graduated with a Bachelor's in Chemistry from McMaster University, but have always had a keen interest in technology,as I worked as a junior Software Developer shortly afterwards. I am currently finishing up my Master degree in Computer Science and have joined Jarvis alongside. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment to create backend applications. With that, I have acquired and solidified my knowledge by working on multiple projects specifically with technologies such as Linux/Bash, RDMS/PostgresSQL, Dockers, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
     - Java
+    - Python
     - Linux/Bash
     - RDBMS/SQL
+    - NoSQL/MongoDB
     - Agile/Scrum
     - Git
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - JavaScript
+    - React
+    - Nodejs
+    - HTML/CSS
+    - GitFlow
+    - Docker
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - GCP
+    - C/C++
+    - Neo4j
+    - Maven
+    - AWS
 
 # List of Jarvis projects
 jarvis_projects:
@@ -38,13 +40,13 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Implented a clustering monitoring program which automates the collects hardware and cpu usage information from the linux servers using Bash scripts and Crontab. The data was stored in a postgresSQL database that was initialized using Dockers. It was later than queried to perform analytics on overall usage and identify downtimes during high server usage. We utilzed Git as a version control tool and GitFlow branching strategy. 
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Twitter App: In-progress"
+      - "JDBC App: Implemented JDBC to connect to a postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern."
+      - "Grep App: Created application to mimic linux grep command and utilized stream APIs to optimize efficiency. This was packaged using Maven and was Dockerized by building an image and uploading to docker hub."
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""
@@ -65,14 +67,14 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "Fifa Dashboard"
     #URL is optional
     git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
+    description: Created dashboard to find players team and matches played statistics that can potentially be used for sports betting. The frontend applciation was built using React and backend using Nodejs. The data was stored in MySQL database hosted on AWS-RDS. 
+  - name: "Social Media Application"
     git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Created frontend using React/Redux while backend uses Django and Firebase. The application allows user to log in and post threads and interact with other users using the app.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -81,43 +83,38 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2021-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Worked in an Agile/Scrum enviroment to implement multiple projects using Linux/Bash, Java, Docker, SQL, etc. Conducted daily scrum meetings and bi-weekly retro meetings."
+  - title: "Software Developer"
+    company: "Select Vantage Inc."
+    duration: "2019-2020"
+    description: " Created python tools/programs to help retrieve live trading information. Utilized python modules for data processing and data analysis and implemented scripts to reduce time sorting data."
+  - title: "Research Assistant"
+    company: "McMaster University"
+    duration: "2017 - 2019"
+    description: "Utilized python libraries for data analysis. Created and led team project regarding exploration of cholesterol embedded lipid systems in membranes studying lysis analytics. Publication: https://www.nature.com/articles/s41598-020-61561-7 "
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "Univeristy of Pennsylvannia"
+    duration: "2020-Present"
+    degree: "Masters of Computer Information Technology"
+    department: "School of Engineering and Applied Sciences"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+      - "GPA: 3.7/4.0"
+  - school_name: "McMaster University"
+    duration: "2015-2019"
+    degree: "Bachelors of Science"
+    department: "Chemistry and Chemical Biology"
+    awards_achievements:
+      - "GPA: 3.5/4.0" 
 
 #Optional section
 others:
-    #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
+      - "Soccer and Basketball"
       - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Photography and Radio Co-Host"
