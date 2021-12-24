@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo_Osama
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I have graduated with a Bachelor's in Chemistry from McMaster University, but have always had a keen interest in technology,as I worked as a junior Software Developer shortly afterwards. I am currently finishing up my Master degree in Computer Science and have joined Jarvis alongside. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment to create backend applications. With that, I have acquired and solidified my knowledge by working on multiple projects specifically with technologies such as Linux/Bash, RDMS/PostgresSQL, Dockers, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer.
+summary: I graduated with a Bachelor's in Chemistry from McMaster University, but have always had a keen interest in technology. I worked as a junior Software Developer at Select Vantage shortly afterwards, creating python scripts and trading tool to be used in equity markets. I am currently finishing up my Master degree in Computer Science and have joined Jarvis alongside. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment to create backend applications. With that, I have acquired and solidified my knowledge by working on multiple projects specifically with technologies such as Linux/Bash, RDMS/PostgresSQL, Dockers, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -47,21 +47,21 @@ jarvis_projects:
       - "Twitter App: In-progress"
       - "JDBC App: Implemented JDBC to connect to a postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern."
       - "Grep App: Created application to mimic linux grep command and utilized stream APIs to optimize efficiency. This was packaged using Maven and was Dockerized by building an image and uploading to docker hub."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+#  - name: "Springboot App"
+#    git_url: "/springboot"
+#    description: ""
+#  - name: "Python Data Analytics"
+#    git_url: "/python_data_anlytics"
+#    description: ""
+#  - name: "Hadoop"
+#    git_url: "/hadoop"
+#    description: ""
+#  - name: "Spark"
+#    git_url: "/spark"
+#    description: ""
+#  - name: "Cloud/DevOps"
+#    git_url: "/cloud_devops"
+#    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -69,12 +69,12 @@ highlighted_projects:
     #project name
   - name: "Fifa Dashboard"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    git_url: "https://github.com/smosma252"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created dashboard to find players team and matches played statistics that can potentially be used for sports betting. The frontend applciation was built using React and backend using Nodejs. The data was stored in MySQL database hosted on AWS-RDS. 
+    description: Created dashboard to search for player and match statistics that can potentially be used for sports betting. The frontend applciation was built using React and the backend using Nodejs. The dataset was stored using a MySQL database hosted on AWS-RDS.
   - name: "Social Media Application"
-    git_url:
-    description: Created frontend using React/Redux while backend uses Django and Firebase. The application allows user to log in and post threads and interact with other users using the app.
+    git_url: "https://github.com/smosma252"
+    description: The application allows user to login/signup, post threads and interact with other users using the app. This was created using React/Redux for the frontend and nodejs for the backend. Also utilizing Firebase for authenitcation and database storage.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -117,4 +117,4 @@ others:
     bullets:
       - "Soccer and Basketball"
       - "Competitive gaming"
-      - "Photography and Radio Co-Host"
+      - "Radio Co-Host"
