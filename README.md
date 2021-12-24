@@ -1,6 +1,6 @@
 # Osama Shahid . Jarvis Consulting
 
-I have graduated with a Bachelor's in Chemistry from McMaster University, but have always had a keen interest in technology,as I worked as a junior Software Developer shortly afterwards. I am currently finishing up my Master degree in Computer Science and have joined Jarvis alongside. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment to create backend applications. With that, I have acquired and solidified my knowledge by working on multiple projects specifically with technologies such as Linux/Bash, RDMS/PostgresSQL, Dockers, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer.
+I graduated with a Bachelor's in Chemistry from McMaster University, but have always had a keen interest in technology. I worked as a junior Software Developer at Select Vantage shortly afterwards, creating python scripts and trading tool to be used in equity markets. I am currently finishing up my Master degree in Computer Science and have joined Jarvis alongside. Since then, I have been collaborating with my team members in an Agile/Scrum enviroment to create backend applications. With that, I have acquired and solidified my knowledge by working on multiple projects specifically with technologies such as Linux/Bash, RDMS/PostgresSQL, Dockers, Maven, etc. I am passionate about solving real-world problems and want to move forward in my career as a Software Developer.
 
 ## Skills
 
@@ -23,21 +23,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo_Osama
   - JDBC App: Implemented JDBC to connect to a postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern.
   - Grep App: Created application to mimic linux grep command and utilized stream APIs to optimize efficiency. This was packaged using Maven and was Dockerized by building an image and uploading to docker hub.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/cloud_devops)]: Not Started
-
 
 ## Highlighted Projects
-**Fifa Dashboard** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Created dashboard to find players team and matches played statistics that can potentially be used for sports betting. The frontend applciation was built using React and backend using Nodejs. The data was stored in MySQL database hosted on AWS-RDS.
+**Fifa Dashboard** [[GitHub](https://github.com/smosma252)]: Created dashboard to search for player and match statistics that can potentially be used for sports betting. The frontend applciation was built using React and the backend using Nodejs. The dataset was stored using a MySQL database hosted on AWS-RDS.
 
-**Social Media Application**: Created frontend using React/Redux while backend uses Django and Firebase. The application allows user to log in and post threads and interact with other users using the app.
+**Social Media Application** [[GitHub](https://github.com/smosma252)]: The application allows user to login/signup, post threads and interact with other users using the app. This was created using React/Redux for the frontend and nodejs for the backend. Also utilizing Firebase for authenitcation and database storage.
 
 
 ## Professional Experiences
@@ -60,4 +50,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo_Osama
 ## Miscellaneous
 - Soccer and Basketball
 - Competitive gaming
-- Photography and Radio Co-Host
+- Radio Co-Host
