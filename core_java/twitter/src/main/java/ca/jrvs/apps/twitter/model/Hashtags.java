@@ -1,23 +1,25 @@
 package ca.jrvs.apps.twitter.model;
 
+import java.util.List;
+
 public class Hashtags {
 
 
-  private Integer[] indices;
+  private List<Integer> indices;
   private String text;
 
 
-  public Hashtags(Integer[] indices, String text){
+  public Hashtags(List<Integer> indices, String text){
     this.indices = indices;
     this.text = text;
   }
 
 
-  public Integer[] getIndices() {
+  public List<Integer> getIndices() {
     return indices;
   }
 
-  public void setIndices(Integer[] indices) {
+  public void setIndices(List<Integer> indices) {
     this.indices = indices;
   }
 

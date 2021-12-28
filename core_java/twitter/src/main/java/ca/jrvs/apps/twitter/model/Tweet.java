@@ -1,26 +1,61 @@
 package ca.jrvs.apps.twitter.model;
 
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
+@JsonInclude(Include.NON_NULL)
+@JsonPropertyOrder({
+    "createdAt",
+    "id",
+    "idStr",
+    "text",
+    "entities",
+    "coordinates",
+    "retweetCount",
+    "favoriteCount",
+    "favorited",
+    "retweeted"
+})
+
 public class Tweet {
 
+  @JsonProperty("createdAt")
   private String createdAt;
+  @JsonProperty("id")
   private Integer id;
-  private String id_str;
+  @JsonProperty("idStr")
+  private String idStr;
+  @JsonProperty("text")
   private String text;
+  @JsonProperty("entity")
   private Entities entity;
+  @JsonProperty("coordinates")
   private Coordinates coordinates = null;
+  @JsonProperty("retweetCount")
   private int retweetCount = 0;
+  @JsonProperty("favoriteCount")
   private int favoriteCount = 0;
+  @JsonProperty("favorited")
   private Boolean favorited = false;
+  @JsonProperty("retweeted")
   private Boolean retweeted = false;
 
-  public Tweet(String createdAt, Integer id, String id_str, String text, Entities entity, Coordinates coordinates){
+  public Tweet(String createdAt, Integer id, String idStr, String text, Entities entity, Coordinates coordinates){
     this.createdAt = createdAt;
     this.id = id;
-    this.id_str = id_str;
+    this.idStr = idStr;
     this.text = text;
     this.entity = entity;
     this.coordinates = coordinates;
   }
+
+  public Tweet(){
+    //Create empty object
+  }
+
 
   public String getCreatedAt() {
     return createdAt;
@@ -38,12 +73,12 @@ public class Tweet {
     this.id = id;
   }
 
-  public String getId_str() {
-    return id_str;
+  public String getidStr() {
+    return idStr;
   }
 
-  public void setId_str(String id_str) {
-    this.id_str = id_str;
+  public void setidStr(String id_str) {
+    this.idStr = idStr;
   }
 
   public String getText() {

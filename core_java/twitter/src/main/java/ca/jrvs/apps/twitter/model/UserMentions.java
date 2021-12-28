@@ -1,16 +1,18 @@
 package ca.jrvs.apps.twitter.model;
 
+import java.util.List;
+
 public class UserMentions {
 
 
   private String name;
-  private Integer[] indices;
+  private List<Integer> indices;
   private String screenName;
   private Integer id;
   private String id_str;
 
 
-  public UserMentions(String name, Integer[] indices, String screenName, Integer id, String id_str){
+  public UserMentions(String name, List<Integer> indices, String screenName, Integer id, String id_str){
     this.name = name;
     this.indices = indices;
     this.screenName = screenName;
@@ -27,11 +29,11 @@ public class UserMentions {
     this.name = name;
   }
 
-  public Integer[] getIndices() {
+  public List<Integer> getIndices() {
     return indices;
   }
 
-  public void setIndices(Integer[] indices) {
+  public void setIndices(List<Integer> indices) {
     this.indices = indices;
   }
 
