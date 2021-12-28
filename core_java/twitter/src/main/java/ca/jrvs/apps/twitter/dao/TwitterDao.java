@@ -71,7 +71,6 @@ public class TwitterDao implements CrdDao<Tweet, String> {
       throw new RuntimeException("Empty Response");
     }
 
-
     try {
       jsonStr = EntityUtils.toString(response.getEntity());
     } catch (IOException e) {

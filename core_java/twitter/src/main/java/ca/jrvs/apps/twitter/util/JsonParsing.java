@@ -25,6 +25,14 @@ public class JsonParsing {
   }
 
 
+  /**
+   * Parse JSON string to a object
+   * @param json JSON str
+   * @param clazz Object class
+   * @param <T> Type
+   * @return Object
+   * @throws IOException
+   */
   public static <T> T toObjectFromJson(String json, Class clazz) throws IOException {
     ObjectMapper m = new ObjectMapper();
     m.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
