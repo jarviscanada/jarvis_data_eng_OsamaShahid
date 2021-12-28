@@ -35,6 +35,6 @@ public interface Service {
    *
    * @throws IllegalArgumentException if one of the IDs is invalid.
    */
-  List<Tweet> deleteTweets(String[] ids);
+  List<Tweet> deleteTweets(String[] ids) throws Exception;
 
 }
