@@ -103,7 +103,7 @@ and postgresql to store into a database.
 
 ### Architecture
 
-![arch](./assets/sqlarch.png)
+![arch](assets/sqlarch.png)
 
 ### Scripts
 
