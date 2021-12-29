@@ -7,21 +7,21 @@ import ca.jrvs.apps.twitter.dao.TwitterDao;
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
 import ca.jrvs.apps.twitter.model.Tweet;
-import ca.jrvs.apps.twitter.service.Service;
 import ca.jrvs.apps.twitter.service.TwitterService;
 import ca.jrvs.apps.twitter.util.JsonParsing;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.apache.http.HttpResponse;
+import org.springframework.context.annotation.Configuration;
 
+
+@Configuration
 public class TwitterCLIApp {
 
   private Controller controller;
   public static final String USAGE = "USAGE: TwitterCLIApp post|show|delete [arguments]";
-
-
   public TwitterCLIApp(Controller controller) {
     this.controller = controller;
   }
+
 
   public static void main(String[] args) throws Exception {
 
@@ -30,7 +30,6 @@ public class TwitterCLIApp {
     String accessToken = System.getenv("accessToken");
     String tokenSecret = System.getenv("tokenSecret");
     System.out.println(consumerKey + " | " + consumerSecret + " | " + accessToken + " | " + tokenSecret);
-
 
     HttpHelper httpHelper = new TwitterHttpHelper(consumerKey, consumerSecret, accessToken, tokenSecret);
     CrdDao dao = new TwitterDao(httpHelper);
@@ -67,5 +66,6 @@ public class TwitterCLIApp {
       e.printStackTrace();
     }
   }
+
 
 }
