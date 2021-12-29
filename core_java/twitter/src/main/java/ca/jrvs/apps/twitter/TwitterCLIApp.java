@@ -10,21 +10,23 @@ import ca.jrvs.apps.twitter.model.Tweet;
 import ca.jrvs.apps.twitter.service.TwitterService;
 import ca.jrvs.apps.twitter.util.JsonParsing;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 
-@Configuration
+@Component
 public class TwitterCLIApp {
 
   private Controller controller;
   public static final String USAGE = "USAGE: TwitterCLIApp post|show|delete [arguments]";
+
+  @Autowired
   public TwitterCLIApp(Controller controller) {
     this.controller = controller;
   }
 
 
   public static void main(String[] args) throws Exception {
-
     String consumerKey = System.getenv("consumerKey");
     String consumerSecret = System.getenv("consumerSecret");
     String accessToken = System.getenv("accessToken");

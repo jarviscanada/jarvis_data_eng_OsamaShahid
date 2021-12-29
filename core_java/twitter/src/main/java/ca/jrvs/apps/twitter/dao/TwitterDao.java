@@ -10,8 +10,11 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.util.EntityUtils;
 import ca.jrvs.apps.twitter.util.JsonParsing;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 
+@Repository
 public class TwitterDao implements CrdDao<Tweet, String> {
 
   //URI constants
@@ -34,6 +37,7 @@ public class TwitterDao implements CrdDao<Tweet, String> {
    * Constructor
    * @param httpHelper
    */
+  @Autowired
   public TwitterDao (HttpHelper httpHelper){
     this.httpHelper = httpHelper;
   }
