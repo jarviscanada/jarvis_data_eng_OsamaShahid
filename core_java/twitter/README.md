@@ -51,8 +51,7 @@ java -jar path-to-file post|delete|show [parameters]
 ## UML diagram
 ![](assets/Twitter_App_uml.png)
 
-## explain each component(app/main, controller, service, DAO) (30-50 words each)
-
+## Components
 ### Controller 
 The controller class main purpose is to take in arguments from the user and call upon
 the correct methods.
