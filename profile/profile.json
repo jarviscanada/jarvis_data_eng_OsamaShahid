@@ -35,13 +35,19 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": [
-        "Twitter App: A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring for dependency management. Also performed integration and unit testing utilizing Mockito framework. Finally built an image using dockers and uploaded it to the docker hub.",
-        "JDBC App: Implemented JDBC to connect to a Postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern.",
-        "Grep App: Created application to mimic Linux grep command and utilized stream APIs to optimize efficiency. This app was then packaged using Maven and was Dockerized by building an image and uploading it to the docker hub."
-      ],
+      "description": "Created application to mimic Linux grep command and utilized stream APIs to optimize efficiency. This app was then packaged using Maven and was Dockerized by building an image and uploading it to the docker hub.",
       "git_url": "/core_java",
-      "name": "Core Java Apps"
+      "name": "Grep App"
+    },
+    {
+      "description": "Implemented JDBC to connect to a Postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern.",
+      "git_url": "/core_java",
+      "name": "JDBC App"
+    },
+    {
+      "description": "A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring for dependency management. Also performed integration and unit testing utilizing Mockito framework. Finally built an image using dockers and uploaded it to the docker hub.",
+      "git_url": "/core_java",
+      "name": "Twitter App"
     }
   ],
   "name": "Osama Shahid",
