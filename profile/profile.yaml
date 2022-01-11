@@ -13,26 +13,27 @@ skills:
   proficient:
     - Java/Maven
     - Python
+    - JavaScript/React/Nodejs
+    - HTML/CSS
     - Linux/Bash
     - RDBMS/SQL
-    - NoSQL/MongoDB
+    - MongoDB
     - Agile/Scrum
     - Git
   # At least 5 skills
   competent:
-    - JavaScript
-    - React
-    - Nodejs
-    - HTML/CSS
+    - Neo4j
     - GitFlow
     - Docker
+    - JUnit
+    - Firebase/NoSQL
   # At least 5 skills
   familiar:
     - GCP
     - C/C++
-    - Neo4j
     - AWS
     - Springboot
+    - Mockito
 
 # List of Jarvis projects
 jarvis_projects:
