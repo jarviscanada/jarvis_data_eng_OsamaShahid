@@ -83,26 +83,27 @@
   ],
   "skills": {
     "competent": [
-      "JavaScript",
-      "React",
-      "Nodejs",
-      "HTML/CSS",
+      "Neo4j",
       "GitFlow",
-      "Docker"
+      "Docker",
+      "JUnit",
+      "Firebase/NoSQL"
     ],
     "familiar": [
       "GCP",
       "C/C++",
-      "Neo4j",
       "AWS",
-      "Springboot"
+      "Springboot",
+      "Mockito"
     ],
     "proficient": [
       "Java/Maven",
       "Python",
+      "JavaScript/React/Nodejs",
+      "HTML/CSS",
       "Linux/Bash",
       "RDBMS/SQL",
-      "NoSQL/MongoDB",
+      "MongoDB",
       "Agile/Scrum",
       "Git"
     ]
