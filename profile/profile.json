@@ -45,7 +45,7 @@
       "name": "JDBC App"
     },
     {
-      "description": "A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring for dependency management. Also performed integration and unit testing utilizing Mockito framework. Finally built an image using dockers and uploaded it to the docker hub.",
+      "description": "A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring framework for dependency management. Also performed integration and unit testing by utilizing the Mockito framework. Packaged and built an image using dockers and uploaded it to the docker hub.",
       "git_url": "/core_java",
       "name": "Twitter App"
     }
