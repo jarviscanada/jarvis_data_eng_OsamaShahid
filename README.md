@@ -21,7 +21,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo_Osama
 
 **JDBC App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/core_java)]: Implemented JDBC to connect to a Postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern.
 
-**Twitter App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/core_java)]: A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring for dependency management. Also performed integration and unit testing utilizing Mockito framework. Finally built an image using dockers and uploaded it to the docker hub.
+**Twitter App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo_OsamaShahid/tree/master/core_java)]: A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring framework for dependency management. Also performed integration and unit testing by utilizing the Mockito framework. Packaged and built an image using dockers and uploaded it to the docker hub.
 
 
 ## Highlighted Projects
