@@ -4,11 +4,11 @@ I graduated with a Bachelor's in Chemistry from McMaster University, but have al
 
 ## Skills
 
-**Proficient:** Java/Maven, Python, Linux/Bash, RDBMS/SQL, NoSQL/MongoDB, Agile/Scrum, Git
+**Proficient:** Java/Maven, Python, JavaScript/React/Nodejs, HTML/CSS, Linux/Bash, RDBMS/SQL, MongoDB, Agile/Scrum, Git
 
-**Competent:** JavaScript, React, Nodejs, HTML/CSS, GitFlow, Docker
+**Competent:** Neo4j, GitFlow, Docker, JUnit, Firebase/NoSQL
 
-**Familiar:** GCP, C/C++, Neo4j, AWS, Springboot
+**Familiar:** GCP, C/C++, AWS, Springboot, Mockito
 
 ## Jarvis Projects
 
