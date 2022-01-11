@@ -1,18 +1,14 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "GPA: 3.7/4.0"
-      ],
+      "awards_achievements": null,
       "degree": "Master's of Computer Science",
       "department": "School of Engineering and Applied Sciences",
       "duration": "2020-Present",
       "school_name": "University of Pennsylvania"
     },
     {
-      "awards_achievements": [
-        "GPA: 3.5/4.0"
-      ],
+      "awards_achievements": null,
       "degree": "Bachelors of Science",
       "department": "Chemistry and Chemical Biology",
       "duration": "2015-2019",
