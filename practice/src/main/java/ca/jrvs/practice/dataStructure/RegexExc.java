@@ -1,6 +1,7 @@
 package ca.jrvs.practice.dataStructure;
 
-public interface RegexExc {
+public interface
+RegexExc {
   /**
    * return true if filename extension is jpg or jpeg (case insensitive)
    * @param filename
