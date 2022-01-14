@@ -40,7 +40,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo_Osama
 
 
 ## Education
-**University of Pennsylvania (2020-Present)**, Master's of Computer Science, School of Engineering and Applied Sciences
+**University of Pennsylvania (2020-Present)**, Master's of Computer Science (MCIT), School of Engineering and Applied Sciences
 
 **McMaster University (2015-2019)**, Bachelors of Science, Chemistry and Chemical Biology
 
