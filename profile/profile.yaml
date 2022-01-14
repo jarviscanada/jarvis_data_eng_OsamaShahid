@@ -42,15 +42,15 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Implemented a clustering monitoring program that automates the collects hardware and CPU usage information from the Linux servers using Bash scripts and Crontab. The data was stored in a PostgreSQL database that was initialized using Dockers. It was later than queried to perform analytics on overall usage and identify downtimes during high server usage. We utilized Git as a version control tool and GitFlow branching strategy.
+  - name: "Twitter App"
+    git_url: "/core_java"
+    description: "A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring framework for dependency management. Also performed integration and unit testing by utilizing the Mockito framework. Packaged and built an image using dockers and uploaded it to the docker hub."
   - name: "Grep App"
     git_url: "/core_java"
     description: "Created application to mimic Linux grep command and utilized stream APIs to optimize efficiency. This app was then packaged using Maven and was Dockerized by building an image and uploading it to the docker hub."
   - name: "JDBC App"
     git_url: "/core_java"
     description: "Implemented JDBC to connect to a Postgres database and execute CRUD operation following the Data Access Object (DAO) design pattern."
-  - name: "Twitter App"
-    git_url: "/core_java"
-    description: "A command-line application that allows users to create, show and delete tweets. This was created using Java/Maven and Spring framework for dependency management. Also performed integration and unit testing by utilizing the Mockito framework. Packaged and built an image using dockers and uploaded it to the docker hub."
 #  - name: "Springboot App"
 #    git_url: "/springboot"
 #    description: ""
